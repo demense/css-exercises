@@ -1,9 +1,14 @@
 .header  {
+  display: flex;
+  justify-content: space-between;
   font-family: monospace;
   background: papayawhip;
+  padding: 9px;
 }
 
 .logo {
+  justify-self: center;
+  align-self: center;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
@@ -12,14 +17,26 @@
 }
 
 ul {
+  display: flex;
+  align-items: center;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0px;
 }
 
 a {
+  margin: 0px 5px 0px 5px;
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+}
+
+.right-links {
+  display: flex;
 }
